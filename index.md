@@ -1,14 +1,3 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD html 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
-<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>EE 6485 Computer Vision</title>
-
-<!--<script src="./CS 143 Introduction to Computer Vision_files/lib.js" type="text/javascript"></script>
-<script src="./CS 143 Introduction to Computer Vision_files/popup.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-// redefining default features
-var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,status=1';
-</script>-->
 
 <link media="all" href="./files/glab.css" type="text/css" rel="StyleSheet">
 <style type="text/css" media="all">
@@ -101,4 +90,4 @@ The materials from this class rely significantly on slides prepared by other ins
 <div id="footer">
 <p style="CLEAR: both; margin: 0px">Comments, questions to <a href="http://aliensunmin.github.io">Min Sun</a>. 
 </p></div></div>
-</body></html>
+</body>
