@@ -1,0 +1,166 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD html 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>EE 6485 Computer Vision</title>
+
+<!--<script src="./CS 143 Introduction to Computer Vision_files/lib.js" type="text/javascript"></script>
+<script src="./CS 143 Introduction to Computer Vision_files/popup.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+// redefining default features
+var _POPUP_FEATURES = 'width=500,height=300,resizable=1,scrollbars=1,titlebar=1,status=1';
+</script>-->
+
+<link media="all" href="./files/glab.css" type="text/css" rel="StyleSheet">
+<style type="text/css" media="all">
+img {
+	padding-right: 0px; padding-left: 10px; FLOAT: right; padding-bottom: 10px; padding-top: 10px
+}
+
+#primarycontent {
+	margin-left: auto;  
+    width: expression(document.body.clientWidth > 995? "995px": "auto" );
+    margin-right: auto;
+    text-align: left;
+    max-width: 995px 
+}
+
+body {
+	text-align: center
+}
+</style>
+
+<meta content="MShtml 6.00.2800.1400" name="GENERATOR"></head>
+
+<body>
+
+<div id="primarycontent">
+<center><h1>EE 6485 Computer Vision 計算機視覺</h1>
+<h2>Fall 2014, Tuesday 5:30pm to 6:20pm, Thursday 4:30pm-6:20pn, Location TBA<br>
+Instructor: <a href="http://aliensunmin.github.io">Min Sun</a></h2>
+<h3>
+	TAs: TBA
+</h3>
+
+</center>
+<br>
+	<img style="float: right; padding: 15px; padding-right: 0px;" height="250" alt="Computer Vision, art by hinesedora.com" src="./files/Doraemon.png">
+
+<h2>Course Description</h2>
+<br>
+Can computers understand the visual world as we could? This course treats vision as a process of inference from noisy and uncertain data and emphasizes probabilistic, statistical, data-driven approaches. Topics include image processing; segmentation, grouping, and boundary detection; recognition and detection; motion estimation and structure from motion. This class will also lead you to the discussion of applications applying state-of-the-art techbiques in <i>recognition</i>, <i>detection</i>, and <i> video analysis</i>. 
+<br><br>
+The course will consist of four programming projects, one final project, and a few <a href="https://www.youtube.com/watch?v=PhvDIdGxTik">show-and-tell</a> sessions.
+Please find information about projects and show-and-tell session in the <a href="#Sy">syllabus</a>.
+
+<h2>Prerequisites</h2>
+This course requires programming experience (mainly Matlab) as well as linear algebra, basic calculus, and basic probability. Previous knowledge of visual computing will be helpful.
+
+<h2>Textbook</h2>
+Readings will be assigned in <a href="http://szeliski.org/Book/">"Computer Vision: Algorithms and Applications"</a> by <a href="http://research.microsoft.com/en-us/um/people/szeliski/">Richard Szeliski</a>. The book is available for free online or available for purchase.
+
+<h2>Grading</h2>
+Your final grade will be made up from
+<ul id="grades">
+  <li>60% 4 programming projects</li>
+  <li>30% final projects</li>
+  <li>10% class participation</li>
+</ul>
+You will lose 10% each day for late projects. However, you have three "late days" for the whole course. That is to say, the first 24 hours after the due date and time counts as 1 day, up to 48 hours is two and 72 for the third late day. This will not be reflected in the initial grade reports for your assignment, but they will be factored in and distributed at the end of the semester so that you get the most points possible.
+
+
+<h2 id="important_links"> Important Links: </h2>
+<ul id="all">
+<!--
+    <li><a href="https://lists.cs.brown.edu/sympa/info/cs143.2011-12.f"> Mailing List </a></li>
+-->
+    <li><a href="https://github.com/NTHU-EE-CV-2014-Fall">Github course repositories: slides, homeworks, etc.</a></li>
+    <li><a href="">Collaboration Policy</a></li>
+<!--
+    <li><a href="asgn">All Available Assignments</a></li>
+    <li><a href="results">All Project Results</a></li>
+-->
+</ul>
+
+<h2 id="hours"> Contact Info and Office Hours: </h2>
+You can contact the professor with any of the following:
+<ul>
+<li> Min Sun: TBA </li>
+</ul>
+
+Office Hours
+<ul>
+    <li>Min Sun, TBA.</li>
+</ul>
+
+
+<h2 id="Sy"><i>Tentative</i> Syllabus</h2>
+<style type="text/css">
+table.tableizer-table {
+border: 1px solid #CCC; font-family: Arial, Helvetica, sans-serif
+font-size: 12px;
+} 
+.tableizer-table td {
+padding: 4px;
+margin: 3px;
+border: 1px solid #ccc;
+}
+.tableizer-table th {
+background-color: #104E8B; 
+color: #FFF;
+font-weight: bold;
+}
+</style><table class="tableizer-table">
+<tr class="tableizer-firstrow"><th>lecture</th><th>Class Dates</th><th>Topic</th><th>Slides</th><th>Reading</th><th>Homework/Exam</th></tr>
+<tr><td>1</td><td>T, Sept. 16</td><td>Introduction to computer vision</td><td>.ppt .pdf</td><td>Szeliski 1</td><td>&nbsp;</td></tr>
+<tr bgcolor="#00FFFF"><td></td><td></td><td>Image Formation and Filtering</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>2</td><td>Th, Sept. 18</td><td>Cameras and optics & git and github</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>homework 0 out</td></tr>
+<tr><td>3</td><td>T, Sept. 23</td><td>Light and color</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>&nbsp;</td></tr>
+<tr><td>4</td><td>Th, Sept. 25</td><td>Image filtering & MATLAB Tutorial</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>homework 0 due</td></tr>
+<tr><td>5</td><td>T, Sept. 30</td><td>Thinking in frequency</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>homework 1 out</td></tr>
+<tr><td>6</td><td>Th, Oct. 2</td><td>Image pyramids and applications & <font color="red">show and tell</font></td><td>.ppt .pdf</td><td>Szeliski xx</td><td>&nbsp;</td></tr>
+<tr bgcolor="#00FFFF"><td></td><td></td><td>Feature Detection and Matching</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>7</td><td>T, Oct. 7</td><td>Edge detection</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>&nbsp;</td></tr>
+<tr><td>8</td><td>Th, Oct. 9</td><td>Interest points, corners, and local image features</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>&nbsp;</td></tr>
+<tr><td>9</td><td>T, Oct. 14</td><td>Feature matching and hough transform</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>&nbsp;</td></tr>
+<tr><td>10</td><td>Th, Oct. 16</td><td>Model fitting and RANSAC & <font color="red">show and tell</font></td><td>.ppt .pdf</td><td>Szeliski xx</td><td>homework 2 out</td></tr>
+<tr><td>11</td><td>T, Oct. 21</td><td>Panorama Stitching</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>&nbsp;</td></tr>
+<tr bgcolor="#00FFFF"><td></td><td></td><td>Multiple Views and Motiong</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>12</td><td>Th, Oct. 23</td><td>Stereo and Structure from Motion</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>&nbsp;</td></tr>
+<tr><td>13</td><td>T, Oct. 28</td><td>Feature Tracking and Optical Flow</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>&nbsp;</td></tr>
+<tr bgcolor="#00FFFF"><td></td><td></td><td>Machine Learning Crash Course</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>14</td><td>Th, Oct. 30</td><td>Machine learning intro and clustering</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>project proposal due</td></tr>
+<tr><td>15</td><td>T, Nov. 4</td><td>Machine learning: classification</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>homework 3 out</td></tr>
+<tr bgcolor="#00FFFF"><td></td><td></td><td>Recognition</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>16</td><td>Th, Nov. 6</td><td>Recognition overview, bag of features, large-scale instance recognition</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>&nbsp;</td></tr>
+<tr><td>17</td><td>T, Nov. 11</td><td>Scene recognition</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>&nbsp;</td></tr>
+<tr><td>18</td><td>Th, Nov. 13</td><td>Detection with sliding windows: Viola Jones</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>&nbsp;</td></tr>
+<tr><td>19</td><td>T, Nov. 18</td><td>Mixture of Gaussians and advanced feature encoding</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>&nbsp;</td></tr>
+<tr><td>20</td><td>Th, Nov. 20</td><td>Modern Object Detection & <font color="red">show and tell</font></td><td>.ppt .pdf</td><td>Szeliski xx</td><td>homework 4 out</td></tr>
+<tr><td>21</td><td>T, Nov. 25</td><td>3D Object Dection and Pose Estimation</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>&nbsp;</td></tr>
+<tr><td>22</td><td>Th, Nov. 27</td><td>Working with RGB-D</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>&nbsp;</td></tr>
+<tr><td>23</td><td>T, Dec. 2</td><td>Image Parsing</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>&nbsp;</td></tr>
+<tr><td>24</td><td>Th, Dec. 4</td><td>Context and Spatial Layout</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>&nbsp;</td></tr>
+<tr><td>25</td><td>T, Dec. 9</td><td>Internet scale vision</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>&nbsp;</td></tr>
+<tr><td>26</td><td>Th, Dec. 11</td><td>Human computation and crowdsourcing</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>midterm project report due</td></tr>
+<tr><td>27</td><td>T, Dec. 16</td><td>Attributes and more crowdsourcing</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>&nbsp;</td></tr>
+<tr><td>28</td><td>Th, Dec. 18</td><td>Modern boundary detection and Pb & <font color="red">show and tell</a></td><td>.ppt .pdf</td><td>Szeliski xx</td><td>&nbsp;</td></tr>
+<tr><td>29</td><td>T, Dec. 23</td><td>Human pose estimation</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>&nbsp;</td></tr>
+<tr><td>30</td><td>Th, Dec. 25</td><td>Action and Event</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>&nbsp;</td></tr>
+<tr><td>31</td><td>T, Dec. 30</td><td>Project Pitch</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>&nbsp;</td></tr>
+<tr><td>No Class</td><td>Th, Jan. 1</td><td>&#20803;&#26086; Happy new year</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td></tr>
+<tr><td>32</td><td>T, Jan. 6</td><td>Video analysis</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>&nbsp;</td></tr>
+<tr><td>33</td><td>Th, Jan. 8</td><td>Mobile Vision & Project presentation</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>&nbsp;</td></tr>
+<tr><td>34</td><td>T, Jan. 13</td><td>Project presentation</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>&nbsp;</td></tr>
+<tr><td>35</td><td>Th, Jan. 15</td><td>Project Poster Session</td><td>.ppt .pdf</td><td>Szeliski xx</td><td>final project report due</td></tr>
+</table>
+
+
+
+<h2>Acknowledgements</h2>
+The materials from this class rely significantly on slides prepared by other instructors, especially James Hayes, Fei-Fei Li, and Silvio Savarese. Each slide set and assignment contains acknowledgements. 
+
+
+<div id="footer">
+<p style="CLEAR: both; margin: 0px">Comments, questions to <a href="http://aliensunmin.github.io">Min Sun</a>. 
+</p></div></div>
+</body></html>
